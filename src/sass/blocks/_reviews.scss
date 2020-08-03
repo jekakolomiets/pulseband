@@ -1,0 +1,49 @@
+.reviews {
+    padding-bottom: 70px;
+    min-height: 876px;
+    &__title {
+        color:#0D0D0D;
+        font-weight: 700;
+        font-size:30px;
+        text-align:center;
+        text-transform: uppercase;
+        margin-bottom: 70px;
+    }
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: 784px;
+    }
+    &-answer {
+        display: flex;
+        &__photo {
+            height: 171px;
+            margin-right: 60px;
+        }
+        &__buyer {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            &_name {
+                color:#0D0D0D;
+                font-weight: 700;
+                font-size:18px;
+                text-align:left;
+            }
+            &_maraphon {
+                color:#646464;
+                font-weight: 300;
+                font-size: 14px;
+                text-align: left;
+            }
+            &_comentary {
+                color:#0D0D0D;
+                font-weight: 300;
+                font-size: 16px;
+                text-align: left;
+            }
+        }
+    }
+}
